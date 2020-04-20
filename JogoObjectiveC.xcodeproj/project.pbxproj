@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541B991C244DD9ED00E6DAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B991B244DD9ED00E6DAE4 /* AppDelegate.m */; };
+		541B991F244DD9ED00E6DAE4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B991E244DD9ED00E6DAE4 /* SceneDelegate.m */; };
+		541B9922244DD9ED00E6DAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B9921244DD9ED00E6DAE4 /* ViewController.m */; };
+		541B9925244DD9ED00E6DAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541B9923244DD9ED00E6DAE4 /* Main.storyboard */; };
+		541B9928244DD9ED00E6DAE4 /* JogoObjectiveC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 541B9926244DD9ED00E6DAE4 /* JogoObjectiveC.xcdatamodeld */; };
+		541B992A244DD9F100E6DAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541B9929244DD9F100E6DAE4 /* Assets.xcassets */; };
+		541B992D244DD9F100E6DAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541B992B244DD9F100E6DAE4 /* LaunchScreen.storyboard */; };
+		541B9930244DD9F100E6DAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B992F244DD9F100E6DAE4 /* main.m */; };
+		541B993A244DD9F100E6DAE4 /* JogoObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B9939244DD9F100E6DAE4 /* JogoObjectiveCTests.m */; };
+		541B9945244DD9F100E6DAE4 /* JogoObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B9944244DD9F100E6DAE4 /* JogoObjectiveCUITests.m */; };
+		541B9953244DDAC300E6DAE4 /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 541B9952244DDAC300E6DAE4 /* PORKYS_.TTF */; };
+		541B9954244DDAC300E6DAE4 /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 541B9952244DDAC300E6DAE4 /* PORKYS_.TTF */; };
+		541B9955244DDAC300E6DAE4 /* PORKYS_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 541B9952244DDAC300E6DAE4 /* PORKYS_.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		541B9936244DD9F100E6DAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541B990F244DD9EC00E6DAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541B9916244DD9EC00E6DAE4;
+			remoteInfo = JogoObjectiveC;
+		};
+		541B9941244DD9F100E6DAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541B990F244DD9EC00E6DAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541B9916244DD9EC00E6DAE4;
+			remoteInfo = JogoObjectiveC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		541B9917244DD9ED00E6DAE4 /* JogoObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B991A244DD9ED00E6DAE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		541B991B244DD9ED00E6DAE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		541B991D244DD9ED00E6DAE4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		541B991E244DD9ED00E6DAE4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		541B9920244DD9ED00E6DAE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		541B9921244DD9ED00E6DAE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		541B9924244DD9ED00E6DAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		541B9927244DD9ED00E6DAE4 /* JogoObjectiveC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JogoObjectiveC.xcdatamodel; sourceTree = "<group>"; };
+		541B9929244DD9F100E6DAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		541B992C244DD9F100E6DAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		541B992E244DD9F100E6DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541B992F244DD9F100E6DAE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		541B9935244DD9F100E6DAE4 /* JogoObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B9939244DD9F100E6DAE4 /* JogoObjectiveCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JogoObjectiveCTests.m; sourceTree = "<group>"; };
+		541B993B244DD9F100E6DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541B9940244DD9F100E6DAE4 /* JogoObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogoObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B9944244DD9F100E6DAE4 /* JogoObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JogoObjectiveCUITests.m; sourceTree = "<group>"; };
+		541B9946244DD9F100E6DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541B9952244DDAC300E6DAE4 /* PORKYS_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = PORKYS_.TTF; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541B9914244DD9EC00E6DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B9932244DD9F100E6DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B993D244DD9F100E6DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541B990E244DD9EC00E6DAE4 = {
+			isa = PBXGroup;
+			children = (
+				541B9919244DD9ED00E6DAE4 /* JogoObjectiveC */,
+				541B9938244DD9F100E6DAE4 /* JogoObjectiveCTests */,
+				541B9943244DD9F100E6DAE4 /* JogoObjectiveCUITests */,
+				541B9918244DD9ED00E6DAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541B9918244DD9ED00E6DAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541B9917244DD9ED00E6DAE4 /* JogoObjectiveC.app */,
+				541B9935244DD9F100E6DAE4 /* JogoObjectiveCTests.xctest */,
+				541B9940244DD9F100E6DAE4 /* JogoObjectiveCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541B9919244DD9ED00E6DAE4 /* JogoObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				541B991A244DD9ED00E6DAE4 /* AppDelegate.h */,
+				541B991B244DD9ED00E6DAE4 /* AppDelegate.m */,
+				541B991D244DD9ED00E6DAE4 /* SceneDelegate.h */,
+				541B991E244DD9ED00E6DAE4 /* SceneDelegate.m */,
+				541B9920244DD9ED00E6DAE4 /* ViewController.h */,
+				541B9921244DD9ED00E6DAE4 /* ViewController.m */,
+				541B9923244DD9ED00E6DAE4 /* Main.storyboard */,
+				541B9952244DDAC300E6DAE4 /* PORKYS_.TTF */,
+				541B9929244DD9F100E6DAE4 /* Assets.xcassets */,
+				541B992B244DD9F100E6DAE4 /* LaunchScreen.storyboard */,
+				541B992E244DD9F100E6DAE4 /* Info.plist */,
+				541B992F244DD9F100E6DAE4 /* main.m */,
+				541B9926244DD9ED00E6DAE4 /* JogoObjectiveC.xcdatamodeld */,
+			);
+			path = JogoObjectiveC;
+			sourceTree = "<group>";
+		};
+		541B9938244DD9F100E6DAE4 /* JogoObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				541B9939244DD9F100E6DAE4 /* JogoObjectiveCTests.m */,
+				541B993B244DD9F100E6DAE4 /* Info.plist */,
+			);
+			path = JogoObjectiveCTests;
+			sourceTree = "<group>";
+		};
+		541B9943244DD9F100E6DAE4 /* JogoObjectiveCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				541B9944244DD9F100E6DAE4 /* JogoObjectiveCUITests.m */,
+				541B9946244DD9F100E6DAE4 /* Info.plist */,
+			);
+			path = JogoObjectiveCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541B9916244DD9EC00E6DAE4 /* JogoObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B9949244DD9F100E6DAE4 /* Build configuration list for PBXNativeTarget "JogoObjectiveC" */;
+			buildPhases = (
+				541B9913244DD9EC00E6DAE4 /* Sources */,
+				541B9914244DD9EC00E6DAE4 /* Frameworks */,
+				541B9915244DD9EC00E6DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoObjectiveC;
+			productName = JogoObjectiveC;
+			productReference = 541B9917244DD9ED00E6DAE4 /* JogoObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		541B9934244DD9F100E6DAE4 /* JogoObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B994C244DD9F100E6DAE4 /* Build configuration list for PBXNativeTarget "JogoObjectiveCTests" */;
+			buildPhases = (
+				541B9931244DD9F100E6DAE4 /* Sources */,
+				541B9932244DD9F100E6DAE4 /* Frameworks */,
+				541B9933244DD9F100E6DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541B9937244DD9F100E6DAE4 /* PBXTargetDependency */,
+			);
+			name = JogoObjectiveCTests;
+			productName = JogoObjectiveCTests;
+			productReference = 541B9935244DD9F100E6DAE4 /* JogoObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		541B993F244DD9F100E6DAE4 /* JogoObjectiveCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B994F244DD9F100E6DAE4 /* Build configuration list for PBXNativeTarget "JogoObjectiveCUITests" */;
+			buildPhases = (
+				541B993C244DD9F100E6DAE4 /* Sources */,
+				541B993D244DD9F100E6DAE4 /* Frameworks */,
+				541B993E244DD9F100E6DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541B9942244DD9F100E6DAE4 /* PBXTargetDependency */,
+			);
+			name = JogoObjectiveCUITests;
+			productName = JogoObjectiveCUITests;
+			productReference = 541B9940244DD9F100E6DAE4 /* JogoObjectiveCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541B990F244DD9EC00E6DAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Cátia Souza";
+				TargetAttributes = {
+					541B9916244DD9EC00E6DAE4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					541B9934244DD9F100E6DAE4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 541B9916244DD9EC00E6DAE4;
+					};
+					541B993F244DD9F100E6DAE4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 541B9916244DD9EC00E6DAE4;
+					};
+				};
+			};
+			buildConfigurationList = 541B9912244DD9EC00E6DAE4 /* Build configuration list for PBXProject "JogoObjectiveC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541B990E244DD9EC00E6DAE4;
+			productRefGroup = 541B9918244DD9ED00E6DAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541B9916244DD9EC00E6DAE4 /* JogoObjectiveC */,
+				541B9934244DD9F100E6DAE4 /* JogoObjectiveCTests */,
+				541B993F244DD9F100E6DAE4 /* JogoObjectiveCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541B9915244DD9EC00E6DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B992D244DD9F100E6DAE4 /* LaunchScreen.storyboard in Resources */,
+				541B992A244DD9F100E6DAE4 /* Assets.xcassets in Resources */,
+				541B9953244DDAC300E6DAE4 /* PORKYS_.TTF in Resources */,
+				541B9925244DD9ED00E6DAE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B9933244DD9F100E6DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B9954244DDAC300E6DAE4 /* PORKYS_.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B993E244DD9F100E6DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B9955244DDAC300E6DAE4 /* PORKYS_.TTF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541B9913244DD9EC00E6DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B9930244DD9F100E6DAE4 /* main.m in Sources */,
+				541B9928244DD9ED00E6DAE4 /* JogoObjectiveC.xcdatamodeld in Sources */,
+				541B9922244DD9ED00E6DAE4 /* ViewController.m in Sources */,
+				541B991C244DD9ED00E6DAE4 /* AppDelegate.m in Sources */,
+				541B991F244DD9ED00E6DAE4 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B9931244DD9F100E6DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B993A244DD9F100E6DAE4 /* JogoObjectiveCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B993C244DD9F100E6DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B9945244DD9F100E6DAE4 /* JogoObjectiveCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		541B9937244DD9F100E6DAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541B9916244DD9EC00E6DAE4 /* JogoObjectiveC */;
+			targetProxy = 541B9936244DD9F100E6DAE4 /* PBXContainerItemProxy */;
+		};
+		541B9942244DD9F100E6DAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541B9916244DD9EC00E6DAE4 /* JogoObjectiveC */;
+			targetProxy = 541B9941244DD9F100E6DAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		541B9923244DD9ED00E6DAE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541B9924244DD9ED00E6DAE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		541B992B244DD9F100E6DAE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541B992C244DD9F100E6DAE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		541B9947244DD9F100E6DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		541B9948244DD9F100E6DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541B994A244DD9F100E6DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = JogoObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.catiasouza.JogoObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541B994B244DD9F100E6DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = JogoObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.catiasouza.JogoObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		541B994D244DD9F100E6DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = JogoObjectiveCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.catiasouza.JogoObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JogoObjectiveC.app/JogoObjectiveC";
+			};
+			name = Debug;
+		};
+		541B994E244DD9F100E6DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = JogoObjectiveCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.catiasouza.JogoObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JogoObjectiveC.app/JogoObjectiveC";
+			};
+			name = Release;
+		};
+		541B9950244DD9F100E6DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = JogoObjectiveCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.catiasouza.JogoObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JogoObjectiveC;
+			};
+			name = Debug;
+		};
+		541B9951244DD9F100E6DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS994HB957;
+				INFOPLIST_FILE = JogoObjectiveCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.catiasouza.JogoObjectiveCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JogoObjectiveC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541B9912244DD9EC00E6DAE4 /* Build configuration list for PBXProject "JogoObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B9947244DD9F100E6DAE4 /* Debug */,
+				541B9948244DD9F100E6DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541B9949244DD9F100E6DAE4 /* Build configuration list for PBXNativeTarget "JogoObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B994A244DD9F100E6DAE4 /* Debug */,
+				541B994B244DD9F100E6DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541B994C244DD9F100E6DAE4 /* Build configuration list for PBXNativeTarget "JogoObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B994D244DD9F100E6DAE4 /* Debug */,
+				541B994E244DD9F100E6DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541B994F244DD9F100E6DAE4 /* Build configuration list for PBXNativeTarget "JogoObjectiveCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B9950244DD9F100E6DAE4 /* Debug */,
+				541B9951244DD9F100E6DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		541B9926244DD9ED00E6DAE4 /* JogoObjectiveC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				541B9927244DD9ED00E6DAE4 /* JogoObjectiveC.xcdatamodel */,
+			);
+			currentVersion = 541B9927244DD9ED00E6DAE4 /* JogoObjectiveC.xcdatamodel */;
+			path = JogoObjectiveC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 541B990F244DD9EC00E6DAE4 /* Project object */;
+}
